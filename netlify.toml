@@ -1,9 +1,4 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
 
-[context.deploy-preview]
-  command = "npm run build-preview"
   
 baseurl = "https://saavfoxdev.com"
 languageCode = "en-us"
