@@ -99,7 +99,7 @@ html, body{
 }
 @media screen and (max-width: 480px) {
 	.content {
-        padding-bottom: 80%;
+        padding-bottom: 95%;
     }
     .content h1{
         font-size: 250%;
