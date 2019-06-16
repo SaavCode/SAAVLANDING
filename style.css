@@ -12,7 +12,7 @@ html, body{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(content/954241.jpg) ;
+    background: url(content/954241.jpg) no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size:cover;
@@ -100,7 +100,7 @@ html, body{
 }
 @media screen and (max-width: 480px) {
 	.content {
-        padding-bottom: 110%;
+        padding-bottom: 45%;
     }
     .content h1{
         font-size: 250%;
