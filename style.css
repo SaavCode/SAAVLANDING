@@ -107,7 +107,7 @@ html, body{
     }
     .btn{
         position:relative;
-bottom:-100;
+bottom:0;
         font-size: 100%;
         padding: 6px 14px;
     }
