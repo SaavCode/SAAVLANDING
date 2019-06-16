@@ -15,7 +15,7 @@ html, body{
     background: url(content/954241.jpg) ;
     display: table;
     top: 0;
-    background-size:auto;
+    background-size:cover;
 }
 .intro .inner{
     display: table-cell;
