@@ -68,17 +68,45 @@ html, body{
 }
 
 btn:hover{
-    color: #cbdfd6;
+    color: #ff0040;
     border: solid #cbdfd6 2px;
+
 }
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
-
+.content {
+    padding-bottom: 30%;
+}
+.content h1{
+    font-size: 450%;
+}
+.btn{
+    font-size: 130%;
+    padding: 9px 17px;
+}
 }
 @media screen and (max-width: 768px) {
-
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .btn{
+        font-size: 110%;
+        padding: 7px 15px;
+    }
 }
 @media screen and (max-width: 480px) {
-	
+	.content {
+        padding-bottom: 50%;
+    }
+    .content h1{
+        font-size: 250%;
+    }
+    .btn{
+        font-size: 100%;
+        padding: 6px 14px;
+    }
 }
 
