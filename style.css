@@ -33,7 +33,7 @@ html, body{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 60%;
+   
     
 }
 .content h1{
@@ -43,6 +43,8 @@ html, body{
     color: #E1EFE9;
     line-height: 70%;
     text-shadow: 5px 5px 10px red;
+    padding-bottom: 60%;
+    
 }
 .content h4{
     font-family: 'Yantramanav', sans-serif;
@@ -51,6 +53,7 @@ html, body{
     color: #E1EFE9;
     line-height: 70%;
     text-shadow: 5px 5px 10px red;
+    padding-bottom: 60%;
 }
 .btn {
     font-family: 'Montserrat';
