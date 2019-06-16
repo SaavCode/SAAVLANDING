@@ -93,6 +93,7 @@ html, body{
         font-size: 300%;
     }
     .btn{
+        
         font-size: 110%;
         padding: 7px 15px;
     }
@@ -105,6 +106,7 @@ html, body{
         font-size: 250%;
     }
     .btn{
+        padding-top: 300%;
         font-size: 100%;
         padding: 6px 14px;
     }
