@@ -75,7 +75,7 @@ html, body{
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
 .content {
-    padding-bottom: 30%;
+    padding-bottom: 5%;
 }
 .content h1{
     font-size: 450%;
@@ -87,7 +87,7 @@ html, body{
 }
 @media screen and (max-width: 768px) {
     .content {
-        padding-bottom: 30%;
+        padding-bottom: 5%;
     }
     .content h1{
         font-size: 300%;
