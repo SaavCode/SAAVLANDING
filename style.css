@@ -12,10 +12,10 @@ html, body{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(content/954241.jpg) no-repeat 50% 50%;
+    background: url(content/954241.jpg) ;
     display: table;
     top: 0;
-    background-size:cover;
+    background-size:auto;
 }
 .intro .inner{
     display: table-cell;
