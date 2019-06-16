@@ -67,7 +67,7 @@ html, body{
     background-color: black;
 }
 
-btn:hover{
+.btn:hover{
     color: #ff0040;
     border: solid #cbdfd6 2px;
 
