@@ -106,7 +106,7 @@ html, body{
         font-size: 250%;
     }
     .btn{
-        position:relative;
+        position:absolute;
 bottom:0;
         font-size: 100%;
         padding: 6px 14px;
