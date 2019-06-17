@@ -67,6 +67,11 @@ html, body{
     background-color: black;
 }
 
+.imgNess{
+    height: 10x;
+  width: 10px;
+}
+
 .btn:hover{
     color: #ff0040;
     border: solid #cbdfd6 2px;
