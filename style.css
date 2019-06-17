@@ -77,11 +77,8 @@ html, body{
 .content {
     padding-bottom: 0%;
 }
-.h1{
+.content h1{
     font-size: 450%;
-}
-.h4{
-    font-size: 400%;
 }
 .btn{
     font-size: 130%;
@@ -93,11 +90,8 @@ html, body{
     .content {
         padding-bottom: 0%;
     }
-    .h1{
+    .content h1{
         font-size: 300%;
-    }
-    .h4{
-        font-size: 250%;
     }
     .btn{
         
@@ -110,11 +104,8 @@ html, body{
 	.content {
         padding-bottom: 0%;
     }
-    .h1{
-        font-size: 200%;
-    }
-    .h4{
-        font-size: 150%;
+    .content h1{
+        font-size: 250%;
     }
     .btn{
         font-size: 100%;
