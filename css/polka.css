@@ -83,7 +83,10 @@ body {
       transform: rotate(10deg);
     }
   }
-  
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   /* ---------- Mobile Responsiveness ---------- */
   @media (max-width: 500px) {
     h1 {
