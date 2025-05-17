@@ -1,122 +1,158 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
-html, body{
+/* ---------- Reset & Base ---------- */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+  color: white;
+}
 
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
-    background-color: black;
+/* ---------- Layout ---------- */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(content/stars.gif) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
 }
-.intro{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(content/stars.gif) no-repeat 50% 50%;
-    display: table;
-    top: 0;
-    background-size:cover;
+
+.inner {
+  max-width: 700px;
+  width: 100%;
 }
-.intro .inner{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100;
-    max-width: none;
-}
-.innerBottom{
-    display: table-cell;
-    vertical-align: bottom;
-    width: 100;
-    max-width: none;
-}
+
 .content {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-
-    
-}
-.content h1{
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 550%;
-    font-weight: 300;
-    color: #E1EFE9;
-    line-height: 70%;
-    text-shadow: 5px 5px 10px red;
-}
-.content h4{
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 200%;     
-    font-weight: 100;
-    color: #E1EFE9;
-    line-height: 70%;
-    text-shadow: 5px 5px 10px red;
-}
-.btn {
-    font-family: 'Montserrat';
-    font-size: 135%;
-    font-weight: 400%;
-    color: #3a6168;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: solid #3a6168;
-    padding: 10px 20px ;
-    border-radius: 9px;
-    transition: all 0.5s;
-    bottom: 10px;
-    background-color: black;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.imgNess{
-    height: 100px;
+/* ---------- Typography ---------- */
+h1 {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  color: #E1EFE9;
+  text-shadow: 5px 5px 10px red;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #E1EFE9;
+  margin-top: 1rem;
+  text-shadow: 5px 5px 10px red;
+}
+
+.headline-sub {
+  font-size: 1.4rem;
+  color: #ff1ab1;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* ---------- CTA Button ---------- */
+.pink-cta {
+  background: linear-gradient(90deg, #ff1ab1, #ff66d3);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(255, 26, 177, 0.5);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pink-cta:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 30px rgba(255, 26, 177, 0.75);
+}
+
+/* ---------- GitHub Corner Animation ---------- */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%, 100% { transform: rotate(0); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+/* ---------- Misc ---------- */
+.imgNess {
+  height: 100px;
   width: 100px;
 }
 
-.btn:hover{
-    color: #ff0040;
-    border: solid #cbdfd6 2px;
-
-}
-/*--- Media Queries --*/
+/* ---------- Media Queries ---------- */
 @media screen and (max-width: 900px) {
-.content {
-    padding-bottom: 0%;
-}
-.content h1{
+  .content h1 {
     font-size: 450%;
-}
-.btn{
-    font-size: 130%;
-    padding: 9px 17px;
-    
-}
-}
-@media screen and (max-width: 768px) {
-    .content {
-        padding-bottom: 0%;
-    }
-    .content h1{
-        font-size: 300%;
-    }
-    .btn{
-        
-        font-size: 110%;
-        padding: 7px 15px;
-        
-    }
-}
-@media screen and (max-width: 480px) {
-	.content {
-        padding-bottom: 0%;
-    }
-    .content h1{
-        font-size: 250%;
-    }
-    .btn{
-        font-size: 100%;
-        padding: 6px 14px;
-        
-    }
+  }
+  .pink-cta {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 300%;
+  }
+  .pink-cta {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .headline-sub {
+    font-size: 1.1rem;
+  }
+  .pink-cta {
+    font-size: 0.9rem;
+    padding: 12px 20px;
+  }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+  .content h1 {
+    font-size: 250%;
+  }
+}
